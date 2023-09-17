@@ -5,8 +5,8 @@ import PropTypes from 'prop-types';
 const Card = ({card,handleAddCourse}) => {
     const {img, course_name, description,price,credit_hours} = card;
     return (
-        <div className="bg-white shadow-lg rounded-lg">
-            <img src= {img} className="lg:p-3"/>
+        <div className="bg-white shadow-lg rounded-lg mx-5 lg:mx-0">
+            <img src= {img} className="p-3 mx-auto"/>
             <h2 className="text-md font-medium text-center">{course_name}</h2>
             <p className="text-sm text-justify p-3 text-gray-500">{description}</p>
            <div className="flex justify-between px-4 text-gray-600">
